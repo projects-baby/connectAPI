@@ -1,4 +1,10 @@
 const app = document.getElementById('root')
+
+const logo = document.createElement('img')
+
+logo.src = 'logo.png'
+
+
 // create request varabile and assign XMLHttpRequest object to it
 var request = new XMLHttpRequest()
 
