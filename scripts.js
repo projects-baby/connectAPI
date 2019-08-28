@@ -34,7 +34,7 @@ if (request.status >= 200 && request.status < 400) {
     // creates a paragraph for movie description 
     const p = document.createElement('p')
     movie.description = movie.description.substring(0, 300)
-    p.textContent = '${movie.description}...'
+    p.textContent = `${movie.description}...`
 
 
     // append cards to container
@@ -50,6 +50,7 @@ if (request.status >= 200 && request.status < 400) {
     const errorMessage = document.createElement('marquee')
     errorMessage.textContent = 'Gah, its not working!'
     app.appendChild(errorMessage)
+}
 }
 
 // send request
