@@ -1,3 +1,4 @@
+const app = document.getElementById('root')
 // create request varabile and assign XMLHttpRequest object to it
 var request = new XMLHttpRequest()
 
